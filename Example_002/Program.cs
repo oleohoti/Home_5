@@ -7,7 +7,7 @@ int[] CreateArray(int size) // создание массива и заполне
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
-        array[i] = new Random().Next(1, 100);
+        array[i] = new Random().Next(-99, 100);
     return array;
 }
 void FindSums(int[] array) // массив с нахождением суммы элементов, стоящих на нечетных позициях и вывода массива
